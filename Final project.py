@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-from My_Final_project.Translation import ru, eng, uk
+from Translation import ru, eng, uk
 
 bot = telebot.TeleBot()
 @bot.message_handler(commands=["start"])
